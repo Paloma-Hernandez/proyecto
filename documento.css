@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Glass+Antiqua&family=Prosto+One&family=Staatliches&family=Dangrek&family=Stint+Ultra+Condensed&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Martian+Mono&family=Righteous&family=Roboto+Condensed&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: linear-gradient(45deg,#ff69b4,#66cdaa,#9370db,#ffa07a);
+	background-size: 400% 400%;
+	position: relative;
+	animation: cambiar 6s ease-in-out infinite;
+}
+@keyframes cambiar{
+	0%{background-position: 0 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 0 50%;}
+}
+video{
+	max-height: 600px;
+	max-width: 600px;
+}
+img{
+	height: 100px;
+	width: 100px;
+}
+h1{
+	text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 100;
+	color: black;
+    text-shadow: 0.1em 0.1em pink;
+}
+.principal{
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	background-color: rgba(255, 255, 255, .15);  
+ 	backdrop-filter: blur(100px);
+ 	padding: 50px;
+}
+.secundario{
+	position: absolute;
+	bottom: 0%;
+	background-color: rgba(255, 255, 255, .15);  
+ 	backdrop-filter: blur(50px);
+}
+p{
+	font-family: 'Glass Antiqua', cursive;
+	font-size: 35;
+	text-align: center;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 50px;
+}
+.p2{
+	font-size: 25px;
+	text-align: justify;
+}
+.p3{
+	font-size: 30px;
+	text-align: justify-all;
+	color: black;
+}
+.p4{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 400px;
+	padding-right: 200px;
+}
+.p5{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 100px;
+	padding-right: 400px;
+}
+.p10{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.l{
+	width: 800;
+	height: 400;
+}
+.l1{
+	float: left;
+	width: 350;
+	height: 400;
+	padding-left: 25px;
+}
+.l2{
+	float: right;
+	width: 300;
+	height: 500;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.l3{
+	float: left;
+	width: 300;
+	height: 400;
+	padding: 25px;
+}
+.l4{
+	float: right;
+	width: 300;
+	height: 300;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.l5{
+	float: left;
+	width: 300;
+	height: 300;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.titulo{
+	font-family: 'Righteous', cursive;
+	font-size: 45px;
+	text-align: center;
+}
+.banner{
+	background: url(https://tep.pucmm.edu.do/PublishingImages/Educacion-continuada/Intro-Programacion-banner-.jpg);
+	background-position: center;
+	background-size: center;
+	padding: 70px;
+}
+.banner > p{
+	text-align: center;
+	font-family: 'Martian Mono', monospace;
+	font-size: 60;
+	text-shadow: 0 0 0.2em white, 0 0 0.2em white,
+		0 0 0.2em white;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+nav ul li:hover > ul {
+    display: inherit;
+}
+nav a:hover {
+    background-color: #ddd;
+}
